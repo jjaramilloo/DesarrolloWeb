@@ -1,0 +1,7 @@
+*.docx
+*.tmp
+*.pdf
+*.png
+*.gif
+*.jpg
+express/node_modules
