@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonidas Estaban</title>
     <link rel="icon" type="image/png" href="images/favicon.png"/>
-    <link rel="stylesheet" href="./CSS/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/estilos.css"/>   
 </head>
 <body>
     <header class="header">
@@ -30,41 +32,44 @@
     </header>
     <section class="hero">
         <h1>
-            !Hola! Soy <strong>Leonidas Esteban</strong>, <br/> Desarrollador <strong>Javascript</strong> 
+            !Hola! Soy <strong>Leonidas Esteban</strong>, <br/> Desarrollador <strong>Javascript</strong> <br/>con pasión por la <strong>enseñanza</strong>
         </h1>
         <img src="images/hero.jpg" widht="500" height="300" alt="imagen de portada">
     </section>  
     <section id="portafolio" class="portfolio">
         <h2>Portalio - Proyectos Destacados</h2>
         <article class="project">
-            <h3>Platzi Video</h3>
-            <h6>React Native</h6>
-            <p><small><strong>Fecha:</strong> 16/01/2014</small></p>
-            <p><small><strong>Artículos relacionos en:</strong> www.pendiente.co</small></p>
-            <p>Descripción </p>
-        <img width="500" src="images/platzi-video-react-native.png" alt="Proyecto"/> 
+            <h3 class="project-title">Platzi Video</h3>
+            <h6 class="project-course">React Native</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.comn/native</small></p>
+            <p class="project-description">Platzi video fue el resultado de 3 meses de trabajo para crear
+                la mejor app para enseñar el funcionamiento de React y React Native. Desde
+            crear un vista-detalle, hasta patrones avanzados. </p>
+            <figure class="project-imageContainer">
+                <img class="project-image" width="500" src="images/platzi-video-react-native.png" alt="Proyecto"/> 
+            </figure>
+        
         </article>
     </section>
-    <section>Sección princial</section>
-    <section>Sección portafolio</section>
     <section id="eventos">
-        <h2>Sección eventos</h2>
-        <article>
-            <figure>
-                <img src="images/platzi-conf.jpg" width="500" alt="imagen evento"/>
+        <h2>Más sobre mi experiencia</h2>
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="images/platzi-conf.jpg" width="500" alt="imagen evento"/>
             </figure>
-            <h3>Congreso 1</h3>
-            <p>Descripción</p>
-            <a href="https://www.youtube.com/watch?v=bOgqRSh8vTs" target="_blank">Ver presentación</a>
+            <h3 class="event-title">PlatziConf México 2018</h3>
+            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet.</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver charla</a>
         </article>
     </section>          
-    <section id="contacto">
-        <form action="/suscripcion/">
+    <section id="contacto" class="contact">
+        <form action="/suscripcion/" class="form-email">
             <h3>¿Creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email" id="email">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 </html>
