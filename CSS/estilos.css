@@ -18,4 +18,22 @@ h4,
 h5,
 h6{
     font-family:'Fjalla One', sans-serif;
-}    
+    font-weight: normal;
+    }    
+h1{
+    font-size: 40px;
+    line-height:1.5em;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+    text-decoration: dashed;
+}
+.hero{
+    height: 300px;
+}
+.project-details{
+    width: 500px;
+    height: 200px;
+}
+.project-imageContainer{
+    width: 500px;
+}
